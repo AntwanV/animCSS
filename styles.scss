@@ -3,7 +3,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 160px;
+    //height: 160px;
     overflow:hidden;
     
     font-family: 'Lato', sans-serif;
@@ -127,24 +127,6 @@
     83.3%,95.96% {transform:translate3d(0,-25%,0);}
   }
   
-  // 6 is the number of animation.
-  // Here, there are 4 lines :
-  
-  // 1 to 2
-  // 2 to 3
-  // 3 to 4
-  // 4 to 3
-  // 3 to 2
-  // 2 to 1
-  
-  // 6x + 6y = 100 (100% duration)
-  
-  // HERE : 
-  // y = 4 -> Animation between two lines
-  // x = 12.66 -> Time spent on a line
-  
-  // You can define a value and calculate the other if you want change speed or the number of lines
-
   @function makelongshadow($length,$angle) {
     $val: 0px 0px transparent;
     @for $i from 1 through $length {
@@ -165,7 +147,7 @@
   .txt {
     text-align: center;
     font-family: 'Roboto';
-    font-size: 12vmin;
+    //font-size: 12vmin;
     font-weight: 700;
     animation: netflix_style 3.5s infinite;
     outline: none;

@@ -4,7 +4,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 160px;
   overflow: hidden;
   font-family: "Lato", sans-serif;
   font-size: 35px;
@@ -127,7 +126,6 @@ body {
 .txt {
   text-align: center;
   font-family: "Roboto";
-  font-size: 12vmin;
   font-weight: 700;
   -webkit-animation: netflix_style 3.5s infinite;
           animation: netflix_style 3.5s infinite;
